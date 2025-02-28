@@ -1,0 +1,286 @@
+@import url('https://fonts.googleapis.com/css2?family=Saira+Condensed:wght@600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #CDDCEA;
+    color: #FFFFFF;
+    font-family: 'Saira Condensed', sans-serif;
+}
+
+/* Navigation Bar */
+.top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 80px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.8);
+    padding: 0 10%;
+    z-index: 100;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 11px;
+}
+
+.play img {
+    width: 42px;
+    height: 48px;
+}
+
+.logo-text {
+    font-weight: 700;
+    font-size: 32px;
+}
+
+.menu {
+    display: flex;
+    gap: 24px;
+}
+
+.menu a {
+    font-weight: 600;
+    font-size: 24px;
+    color: #FFFFFF;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.menu a:hover {
+    color: #FF0000;
+}
+
+.signup-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 120px;
+    height: 40px;
+    background: #FF0000;
+    font-weight: 600;
+    font-size: 24px;
+    color: #FFFFFF;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 5px;
+    transition: background 0.3s;
+}
+
+.signup-btn:hover {
+    background: #cc0000;
+}
+
+/* Hero Section */
+.boy {
+    width: 100%;
+    height: 698px;
+    background: linear-gradient(269.76deg, rgba(0, 0, 0, 0) 14.45%, #000000 80.86%), 
+                url('images/boy.jpeg');
+    background-size: cover;
+    background-position: center;
+    margin-top: 80px;
+    /* transform: skewY(-5deg);   */
+    clip-path: polygon(0% 0%, 100% 0%, 100% 85%, 0% 100%);
+}
+
+.heading {
+    position: relative;
+    width: 625px;
+    left: 129px;
+    top: 190px;
+    font-weight: 700;
+    font-size: 130px;
+    color: #FFFFFF;
+    /* transform: skewY(5deg);   */
+}
+
+/* Box Section */
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+    position: relative;
+    width: 575px;
+    height: 118px;
+    margin: -100px auto;
+    background: #FFFFFF;
+    box-shadow: 0px 51px 98.8px rgba(131, 0, 0, 0.25);
+    padding: 21px 0;
+    border-radius: 10px;
+}
+
+.box-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.box-icon {
+    width: 45px;
+    height: 45px;
+}
+
+.box-text {
+    font-weight: 700;
+    font-size: 24px;
+    color: #FF0000;
+    margin-top: 10px;
+}
+
+/* Frame 9 Section */
+.frame9 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 1px;
+    width: 640px;
+    height: 543px;
+    left: 829px;
+    top: 857px;
+    padding: 30px;
+
+}
+
+.frame8 {
+    border-left: 8px solid red;
+    padding-left: 25px;
+}
+
+.rectangle {
+    width: 100px;
+    height: 5px;
+    background: red;
+}
+
+.heading-text {
+    font-size: 48px;
+    line-height: 87%;
+    font-weight: 700;
+    color: black;
+}
+
+.description {
+    font-size: 18px;
+    color: #333;
+    text-align: justify;
+    margin-top: 20px;
+}
+
+.signup-frame {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.signup-button {
+    padding: 10px 24px;
+    font-size: 20px;
+    font-weight: 700;
+    color: white;
+    background: red;
+    text-decoration: none;
+   
+}
+
+.signup-button:hover {
+    background: darkred;
+}
+
+.rectangle-2 {
+    width: 640px;
+    height: 543px;
+    left: 129px;
+    top: 835px;
+    
+    background: url('images/girl.jpeg') no-repeat center center;
+    background-size: cover;
+    border: 2px solid white; 
+    border-radius: 10px;
+}
+
+footer {
+    margin-top: 100px;
+    padding: 0 120px;
+    background-color: black;
+    background-size: cover;
+    padding-bottom: 30px;
+}
+
+.fight {
+    display: flex;
+    flex-direction: column;
+    padding-top: 60px;
+}
+
+.footer-above {
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.footer-above span {
+    color: red;
+}
+
+.footer-above .icons {
+    display: flex;
+    gap: 20px;
+}
+
+.footer-below {
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-between;
+    color: #938585;
+}
+
+.email {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 7px;
+}
+
+.email img {
+    width: 25px;
+    height: 20px;
+}
+
+.email-id {
+    font-size: 24px;
+}
+
+.privacy-terms {
+    display: flex;
+    gap: 20px;
+    font-size: 24px;
+}
+
+.icons > img {
+    height: 50px;
+    width: 50px;
+}
+
+.middle-page {
+    height: 90vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    margin-top: 120px;
+}
